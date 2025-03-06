@@ -1,4 +1,8 @@
 # April Fools' proxy
+
+> [!NOTE]
+> This is a fork with no changes other than making it work in 2025 (upgrading the base image, and adding a few config fixes).
+
 This is a squid2 + apache2 box to replace all images on any website with a bunch of funny effects.
 I have used it on April Fools' Day at my workplace.
 
