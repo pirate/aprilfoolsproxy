@@ -29,7 +29,7 @@ RUN mkdir -p /var/www/images && \
 RUN usermod -aG www-data proxy && \
     usermod -aG proxy www-data
 	
-RUN wget https://pbs.twimg.com/profile_images/378800000472707746/f27856ed3dcd6d7d71707692ee901970_400x400.jpeg -O /usr/local/bin/jeremie.jpg
+RUN wget "https://www.shutterstock.com/image-photo/carrot-isolated-on-white-background-600nw-795704785.jpg" -O /usr/local/bin/jeremie.jpg
 
 COPY rewrite.pl /usr/local/bin/rewrite.pl
 COPY tourette.pl /usr/local/bin/tourette.pl
